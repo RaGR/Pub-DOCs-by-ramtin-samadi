@@ -15,6 +15,9 @@ git commit -m "Initial commit"
 git branch -M main
 git push -u origin main
 git status
+
+git pull origin main --rebase
+
 git log --oneline --graph --decorate --all
 git diff
 git checkout -b feature/branch
